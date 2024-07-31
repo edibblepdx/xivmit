@@ -75,7 +75,8 @@ main {
     position: fixed;
     background-color: var(--bg-primary);
     transition: width var(--transition-speed) ease;
-    /* overflow: scroll; */
+    overflow: scroll;
+    scrollbar-width: none;
 }
 
 .navbar-nav {
@@ -131,7 +132,8 @@ main {
 }
 
 .nav-link:hover .square-plus {
-    fill: var(--text-secondary)
+    fill: var(--text-secondary);
+    transition: 200ms linear;
 }
 
 .navbar:hover {
